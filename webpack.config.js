@@ -14,6 +14,7 @@ const stylesHandler = isProduction
 const config = {
   entry: {
     index: './src/index.ts',
+    salon: './src/salon/index.ts',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -37,6 +38,11 @@ const config = {
       template: './public/index.html',
       filename: 'index.html',
       chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './public/salon/index.html',
+      filename: 'salon/index.html',
+      chunks: ['salon'],
     }),
     new CopyPlugin({
       patterns: [
