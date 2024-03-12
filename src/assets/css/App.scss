@@ -150,6 +150,10 @@
   }
 
   .content {
+    &__inner {
+      width: 100%;
+    }
+
     &__flex {
       flex-direction: column;
 
