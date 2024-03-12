@@ -130,6 +130,7 @@
 @media all and (max-width: 480px) {
   .fv {
     background-position-x: -16px;
+    background-attachment: scroll;
 
     &__title {
       font-size: 6rem;
