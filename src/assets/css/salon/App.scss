@@ -108,10 +108,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
   column-gap: 1em;
   row-gap: 1em;
-  margin-bottom: 2rem;
 
   &__box1 {
     grid-column-start: 1;
