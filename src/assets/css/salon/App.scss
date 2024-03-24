@@ -216,12 +216,14 @@
   }
 
   .content {
+    padding-top: 25vh;
+
     &__inner {
       width: 100%;
     }
 
     &__block {
-      margin-bottom: 8rem;
+      margin-bottom: 25vh;
       padding: 2rem;
       background: rgba(0, 0, 0, 0.8);
 
