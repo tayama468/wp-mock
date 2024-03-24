@@ -72,6 +72,10 @@
     width: var(--inner-width);
   }
 
+  &__flex {
+    display: flex;
+  }
+
   &__block {
     margin-bottom: 8rem;
     padding: 4rem 4rem;
@@ -87,8 +91,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    -webkit-backdrop-filter: blur(1rem);
-    backdrop-filter: blur(1rem);
 
     &-inner {
       position: relative;
